@@ -7,7 +7,7 @@ Uploaders: Tianon Gravi <tianon@debian.org>,
            Tim Potter <tpot@hpe.com>
 Build-Depends: debhelper (>= 9), dh-golang (>= 1.10~), golang-any (>= 2:1.4),
                golang-dbus-dev (>= 3),
-               golang-github-coreos-pkg-dev,
+               golang-github-coreos-pkg-dev (>= 3),
                libsystemd-dev,
                pkg-config,
 Standards-Version: 3.9.8
@@ -20,7 +20,7 @@ Package: golang-github-coreos-go-systemd-dev
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends},
          golang-dbus-dev (>= 3),
-         golang-github-coreos-pkg-dev,
+         golang-github-coreos-pkg-dev (>= 3),
          libsystemd-dev,
          pkg-config,
 Conflicts: golang-go-systemd-dev
